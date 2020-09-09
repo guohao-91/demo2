@@ -24,6 +24,7 @@ public class MyWebServer {
 		Integer count = 0;
 		while(true){
 			count ++;
+
 			try {
 				Socket socket = serverSocket.accept();
 				System.out.println("connect : " + count);
